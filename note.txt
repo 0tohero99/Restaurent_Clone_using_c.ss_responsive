@@ -1,0 +1,10 @@
+git init
+git add  .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/0tohero99/Restaurent_Clone_using_c.ss_responsive.git
+git push -u origin main
+
+git remote add origin https://github.com/0tohero99/Restaurent_Clone_using_c.ss_responsive.git
+git branch -M main
+git push -u origin main
