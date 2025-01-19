@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 0;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
+
 header {
     height: 45px;
     width: 100%;
@@ -66,18 +68,22 @@ div>a {
         transform: scale(1);
         background-color: #fa9c78;
     }
+
     25% {
         transform: scale(1.1);
         background-color: #da9025;
     }
+
     50% {
         transform: scale(1);
-        background-color:lightgreen;
+        background-color: lightgreen;
     }
+
     75% {
         transform: scale(1.1);
         background-color: lightblue;
     }
+
     100% {
         transform: scale(1);
         background-color: #f33a05;
@@ -93,6 +99,7 @@ div>a {
 }
 
 .heading {
+    text-shadow: 0 0 3px red;
     color: whitesmoke;
     font-size: 50px;
     font-weight: bolder;
@@ -101,28 +108,33 @@ div>a {
     margin-top: 13%;
     margin-left: 23%;
 }
-body{
+
+body {
     background-color: wheat;
-    color:black ;
+    color: black;
 }
-.dark-mode{
+
+.dark-mode {
     background-color: black;
     color: wheat;
 }
-.cut{
+
+.cut {
     float: right;
     height: 30px;
     width: 30px;
-    margin: 1px 1px 0 0;    
+    margin: 1px 1px 0 0;
 }
-.cut:hover{
-    cursor: pointer;  
+
+.cut:hover {
+    cursor: pointer;
     color: red;
-    background-color: transparent;  
+    background-color: transparent;
 }
+
 #coupons {
     /* border: 1px solid green; */
-    background-image: url( "./foto/offer.jpg") ;
+    background-image: url("./foto/offer.jpg");
     background-size: 100% 250px;
     height: 350px;
     width: 30%;
@@ -131,23 +143,25 @@ body{
     z-index: 100;
     display: none;
 }
+
 button {
     border: none;
     border-color: green;
     background-color: darkkhaki;
     margin-top: 7.1px;
-    margin-left:7px;
+    margin-left: 7px;
     font-size: 21px;
     border-radius: 7px;
     animation: 7s;
- }
- 
+}
+
 button:hover {
     cursor: pointer;
     /* color: red; */
     /* background: linear-gradient(to left top, yellow, orange); */
     /* background-color: transparent; */
 }
+
 .dropdown {
     height: 35px;
     width: 50%;
